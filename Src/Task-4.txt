@@ -1,1 +1,8 @@
+Implement the Segnet architecture following the guidelines provided in the original paper (https://arxiv.org/pdf/1511.00561.pdf).
+Download and preprocess the Pascal VOC dataset (http://host.robots.ox.ac.uk/pascal/VOC/). Set up data loaders for training and validation datasets.
+Train the model and monitor the training progress by logging metrics such as loss and pixel accuracy.
+Evaluate your trained model on the test dataset. Generate segmentation masks for objects and compute metrics such as pixel accuracy, mean IoU and F1 score for segmentation, Dice score, and IOU (
+Jaccard Index ).
 
+Change the backbone model from VGG to the lightweight EfficientNet-B0 model.
+Compare the efficiency of the original SegNet (VGG-based) vs. the lightweight version. Perform hyperparameter tuning.
