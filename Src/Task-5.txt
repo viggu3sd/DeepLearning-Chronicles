@@ -1,1 +1,4 @@
+In this assignment, implement a transfer learning pipeline in PyTorch by pre-training a convolutional neural network on the source dataset STL‑10 (download here: https://cs.stanford.edu/~acoates/stl10/)  and adapting the target dataset MNIST. Preprocess both datasets (normalize, resize, augment, and set up data loaders for training and validation), and pre-train your CNN on the source data while logging metrics such as loss and accuracy. Then transfer the learned weights to the target domain using (1) Training Linear layers only, (2) Freezing the initial few layers of the feature extractor and training others, and (3) fine-tuning the entire network.
+Evaluate the adapted model on the target dataset by computing performance metrics like overall accuracy, per-class precision, recall, F1 score, and confusion matrices.
 
+Note: You can also directly use any model pre-trained only on STL-10.
