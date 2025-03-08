@@ -1,1 +1,1 @@
-
+Design and implement a convolutional neural network (CNN) architecture utilizing four dense blocks. The convolution operations should be performed using depth-wise separable convolutions. Train the CNN on the CIFAR-10 dataset and evaluate its performance in terms of classification accuracy, precision, recall, and F1 score. Additionally, compare the computational efficiency and effectiveness of depth-wise and point-wise convolutions against traditional convolutional layers. Ensure the model is trained for at least 100 epochs or until the loss curve stabilizes.
