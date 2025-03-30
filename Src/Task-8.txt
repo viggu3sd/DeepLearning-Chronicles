@@ -1,1 +1,7 @@
+Use PyTorch only.
 
+Read the paper Image-to-Image Translation with Conditional Adversarial Networks by Isola et al. (2017). Implement and train a conditional Generative Adversarial Network (cGAN) called pix2pix, which maps input and output images. You will use the CMP Facade Database to learn how to generate building facade images from label maps. Building your own Pix2Pix Model using a generator with a U-Net-based architecture and a discriminator represented by a convolutional PatchGAN classifier (proposed in the pix2pix paper).
+
+Dataset Link: https://efrosgans.eecs.berkeley.edu/pix2pix/datasets/ 
+Alternative Dataset Link: https://www.kaggle.com/datasets/balraj98/facades-dataset
+Pix2pix Paper: https://arxiv.org/abs/1611.07004
