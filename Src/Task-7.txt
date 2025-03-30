@@ -1,1 +1,34 @@
-
+GAN Assignment
+Assignment: Generating and Evaluating Synthetic
+Data using WGAN
+In this assignment, you'll implement a Wasserstein GAN (WGAN) to generate synthetic
+data and evaluate its effectiveness in training an image classification model. You'll train
+a classifier on real images, use it to annotate synthetic images, and compare
+classification performance on real vs synthetic data.
+Dataset
+You'll work with the "CelebA" dataset, which contains 202,599 face images of various
+celebrities. This dataset is easily accessible through the PyTorch datasets library.
+Part 1: Data Preparation (Provide necessary visualizations)
+i. Load CelebA dataset from PyTorch library
+ii. Resize images to 3 x 64 x 64
+iii. Perform necessary pre-processing
+iv. Split the dataset into training, validation, and test datasets (Required for Part 4).
+Part 2: WGAN Implementation for Synthetic Data Generation
+v. Implement and train a WGAN using the real training dataset.
+vi. Plot generator and discriminator losses. (Provide necessary visualizations)
+vii. Evaluate generated images using Inception Score (IS) and Fréchet Inception
+Distance (FID).
+Part 3: Hyperparameter Tuning and Optimization
+viii. Experiment with different hyperparameters (learning rate, batch size, latent
+vector size, etc.).
+ix. Compare the quality of generated images before and after tuning.
+Part 4: Train a Classifier on Real Data
+x. Train a CNN binary classifier using the “young” attribute provided in the real
+training dataset to classify faces into “Young” or “Old”.
+xi. Use the real validation dataset to ensure proper training.
+Part 5: Annotate Synthetic Data (Provide necessary visualizations)
+xii. Genetrae len(train_data) * 0.7 number of synthetic image samples.
+xiii. Now using the CNN model, annotate each of the generated samples.
+Part 6: Training a Classifier on Real Data + Synthetic Data
+xiv. Now train the CNN binary classifier with 70% Synthetic and 30% Real data.
+xv. Report accuracy, precision, recall, and F1-score on the test set.
