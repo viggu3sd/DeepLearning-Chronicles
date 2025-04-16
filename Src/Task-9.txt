@@ -1,1 +1,6 @@
+Download and preprocess (Augmentation if needed) the Pascal VOC dataset (http://host.robots.ox.ac.uk/pascal/VOC/). 
 
+Implement and evaluate two DETR variants, one using a ResNet-50 backbone along with transformer Encoder-Decoder, and the other using a Vision Transformer (ViT).
+Train the model and monitor the training progress by logging metrics like loss.
+Evaluate your trained model on the test dataset and compute metrics like mAP, AP50, AP75, precision-recall and f1 scores.
+Compare the performance of two architectures.
